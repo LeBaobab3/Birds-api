@@ -79,6 +79,8 @@ const birds = {
     interestingFact:
       "Female and make blue jays look the same. This is a rare characteristic among birds, and it is called sexual monomorphism, meaning the males and females look the same ",
   },
+  images:
+    "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5504_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   sparrow: {
     speciesName: "Sparrow",
     family: "New World Sparrows",
