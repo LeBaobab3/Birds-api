@@ -12,7 +12,7 @@ const birds = {
     habitat:
       "Cities, towns, lawns, farmland, forests; in winter, berry bearing trees.",
     interestingFact:
-      "The American Robin is a known carrier for the West Nile virus. The Robin is able to hold the virus longer than other species, hence spreadingit to more mosquitoes",
+      "The American Robin is a known carrier for the West Nile virus. The Robin is able to hold the virus longer than other species, hence spreading it to more mosquitoes",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/3248_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
@@ -37,7 +37,7 @@ const birds = {
   },
   swallow: {
     speciesName: "Swallow",
-    family: "swallow",
+    family: "Swallow",
     habitat: "Near water, fields, marshes, streams, and lakes",
     interestingFact:
       "Swallows are capable of walking and even running, but they do so with a shuffling, waddling gait.",
@@ -46,7 +46,7 @@ const birds = {
   },
   Finch: {
     speciesName: "Goldfinch",
-    family: "finch",
+    family: "Finch",
     habitat: "Patches of thistles and weeds, roadsides, open woods, edges",
     interestingFact:
       "American Goldfinches use a four-syllable call when they’re ready to take flight. If you listen closely, it sounds like the birds are saying “po-ta-to-chip”. Both male and female Goldfinches use that call. ",
@@ -77,7 +77,7 @@ const birds = {
     family: "Crows, Magpies, Jay",
     habitat: "Oak and pine woods, suburban gardens, groves, towns",
     interestingFact:
-      "Female and make blue jays look the same. This is a rare characteristic among birds, and it is called sexual monomorphism, meaning the males and females look the same ",
+      "Female and make blue jays look the same. This is a rare characteristic among birds, and it is called sexual monomorphism, meaning the males and females look the same. ",
   },
   images:
     "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5504_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
@@ -97,7 +97,7 @@ const birds = {
     habitat:
       "Breeds in marshes, brushy swamps, hayfields, forages also in cultivated land and along edges of water",
     interestingFact:
-      "Blackbirds are highly territorial. Up to a quarter of a blackbird’s day is spent monitoring area boundaries and accosting intruders.",
+      "Blackbirds are highly territorial. Up to a quarter of a blackbirds day is spent monitoring area boundaries and accosting intruders.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5398_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
@@ -124,7 +124,7 @@ const birds = {
     family: "Starling and Mynas",
     habitat: "Cities, parks, farms, open groves, fields",
     interestingFact:
-      "Starlings can create a “murmuration” when huge groups of these birds gather together, moving in one large mass across the sky. They do not simply fly in a flock. They twist and turn into all different shapes during this sky show.",
+      "Starlings can create a “murmuration” when huge groups of these birds gather together, moving in one large mass across the sky. They do not simply fly in a flock. They twist and turn into all different shapes.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/3047_Sibl_9780307957900_art_r1.jpg?tok=1626941160",
   },
