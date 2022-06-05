@@ -44,7 +44,7 @@ const birds = {
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/2955_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
-  Finch: {
+  finch: {
     speciesName: "Goldfinch",
     family: "Finch",
     habitat: "Patches of thistles and weeds, roadsides, open woods, edges",
