@@ -50,7 +50,7 @@ const birds = {
     habitat: "Patches of thistles and weeds, roadsides, open woods, edges",
     interestingFact:
       "American Goldfinches use a four-syllable call when they’re ready to take flight. If you listen closely, it sounds like the birds are saying “po-ta-to-chip”. Both male and female Goldfinches use that call. ",
-    images:
+    image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/4995_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   woodpecker: {
@@ -69,7 +69,7 @@ const birds = {
     habitat: "Farms, towns, open woods, roadsides, grasslands",
     interestingFact:
       "Mourning doves have been clocked at 55 mph during flight.",
-    images:
+    image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/2829_Sibl_9780307957900_art_r1.jpg?tok=1648708358",
   },
   bluejay: {
@@ -79,7 +79,7 @@ const birds = {
     interestingFact:
       "Female and make blue jays look the same. This is a rare characteristic among birds, and it is called sexual monomorphism, meaning the males and females look the same. ",
   },
-  images:
+  image:
     "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5504_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   sparrow: {
     speciesName: "Sparrow",
