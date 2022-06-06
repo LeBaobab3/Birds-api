@@ -72,7 +72,7 @@ const birds = {
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/2829_Sibl_9780307957900_art_r1.jpg?tok=1648708358",
   },
-  bluejay: {
+  "blue jay": {
     speciesName: "Blue Jay",
     family: "Crows, Magpies, Jay",
     habitat: "Oak and pine woods, suburban gardens, groves, towns",
