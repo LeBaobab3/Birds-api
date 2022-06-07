@@ -7,17 +7,17 @@ app.use(cors());
 
 const birds = {
   robin: {
-    speciesName: "Robin",
+    speciesName: "American Robin",
     family: "Thrushes",
     habitat:
       "Cities, towns, lawns, farmland, forests; in winter, berry bearing trees.",
     interestingFact:
-      "The American Robin is a known carrier for the West Nile virus. The Robin is able to hold the virus longer than other species, hence spreading it to more mosquitoes",
+      "The American Robin is a known carrier for the West Nile virus. The Robin is able to hold the virus longer than other species, hence spreading it to more mosquitoes.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/3248_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   bluebird: {
-    speciesName: "Bluebird",
+    speciesName: "Eastern Bluebird",
     family: "Thrushes",
     habitat: "Open country with scattered trees; farms, roadsides.",
     interestingFact:
@@ -26,7 +26,7 @@ const birds = {
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/038_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   cardinal: {
-    speciesName: "Cardinal",
+    speciesName: "Northern Cardinal",
     family: "Cardinals, Grosbeak and Buntings",
     habitat:
       "Woodland edges, thickets, suburban gardens, towns and desert washes.",
@@ -45,28 +45,28 @@ const birds = {
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/2955_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   finch: {
-    speciesName: "Goldfinch",
+    speciesName: "American Goldfinch",
     family: "Finch",
-    habitat: "Patches of thistles and weeds, roadsides, open woods, edges",
+    habitat: "Patches of thistles and weeds, roadsides, open woods, edges.",
     interestingFact:
       "American Goldfinches use a four-syllable call when they’re ready to take flight. If you listen closely, it sounds like the birds are saying “po-ta-to-chip”. Both male and female Goldfinches use that call. ",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/4995_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   woodpecker: {
-    speciesName: "Woodpecker",
+    speciesName: "Red-headed Woodpecker",
     family: "Woodpeckers",
     habitat:
-      "Groves, farm country, orchards, shade trees in towns, large scattered trees",
+      "Groves, farm country, orchards, shade trees in towns, large scattered trees.",
     interestingFact:
       "Woodpeckers have a special bone in their head called the hyoid bone. This special bone unique to woodpeckers wraps around their entire skull inside their heads and adds a sort of shock protection.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/1994_Sibl_9780307957900_art_r1_0.jpg?tok=1651732317",
   },
   dove: {
-    speciesName: "Dove",
+    speciesName: "Mourning Dove",
     family: "Pigeons and Doves",
-    habitat: "Farms, towns, open woods, roadsides, grasslands",
+    habitat: "Farms, towns, open woods, roadsides, grasslands.",
     interestingFact:
       "Mourning doves have been clocked at 55 mph during flight.",
     image:
@@ -82,7 +82,7 @@ const birds = {
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5504_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   sparrow: {
-    speciesName: "Sparrow",
+    speciesName: "House Sparrow",
     family: "New World Sparrows",
     habitat:
       "Thickets, brush, marshes, roadsides, gardens. Habitat varies over its wide range.",
@@ -92,17 +92,17 @@ const birds = {
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/6532_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   blackbird: {
-    speciesName: "Blackbird",
+    speciesName: "Red-winged Blackbird",
     family: "Blackbirds and Orioles",
     habitat:
-      "Breeds in marshes, brushy swamps, hayfields, forages also in cultivated land and along edges of water",
+      "Breeds in marshes, brushy swamps, hayfields, forages also in cultivated land and along edges of water.",
     interestingFact:
       "Blackbirds are highly territorial. Up to a quarter of a blackbirds day is spent monitoring area boundaries and accosting intruders.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/5398_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   crow: {
-    speciesName: "Crow",
+    speciesName: "American Crow",
     family: "Crows, Magpies, Jays",
     habitat: "Woodlands, farms, fields, and rivers, groves, shores, towns.",
     interestingFact:
@@ -111,18 +111,18 @@ const birds = {
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/4534_Sibl_9780307957900_art_r1.jpg?tok=1654151736",
   },
   goose: {
-    speciesName: "Goose",
+    speciesName: "Canadian Goose",
     family: "Ducks and Geese",
-    habitat: "Lakes, ponds, bays, marshes, fields",
+    habitat: "Lakes, ponds, bays, marshes, fields.",
     interestingFact:
-      "Canada geese usually fly in a large V-shaped formation, with one bird in the lead and the others trailing behind it in two diverging lines. This shapes makes the flock more energetically effiecient and makes visual contact and communication easier",
+      "Canada geese usually fly in a large V-shaped formation, with one bird in the lead and the others trailing behind it in two diverging lines. This shapes makes the flock more energetically effiecient and makes visual contact and communication easier.",
     image:
       "https://nas-national-prod.s3.amazonaws.com/styles/api_bird_illustration_with_crop_193_200/public/birds/illustration/660_Sibl_9780307957900_art_r1.jpg?tok=1651732317",
   },
   starling: {
-    speciesName: "Starling",
+    speciesName: "European starling",
     family: "Starling and Mynas",
-    habitat: "Cities, parks, farms, open groves, fields",
+    habitat: "Cities, parks, farms, open groves, fields.",
     interestingFact:
       "Starlings can create a “murmuration” when huge groups of these birds gather together, moving in one large mass across the sky. They do not simply fly in a flock. They twist and turn into all different shapes.",
     image:
