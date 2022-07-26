@@ -5,7 +5,7 @@ const { application } = require("express");
 const PORT = 8000;
 const MongoClient = require("mongodb").MongoClient;
 const connectionString =
-  "mongodb+srv://lebaobab:Shop1080@cluster0.iado0.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://lebaobab:Mongodbpassword@cluster0.iado0.mongodb.net/?retryWrites=true&w=majority";
 
 app.use(cors());
 app.use(express.json()); //more middleware
